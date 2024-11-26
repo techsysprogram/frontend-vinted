@@ -4,12 +4,12 @@ import {
   Routes,
   Route,
   useLocation,
+  useNavigate,
 } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios"; // Import d'axios
 
 import Cookies from "js-cookie";
-import { useNavigate } from "react-router-dom";
 
 //components
 import Header from "./components/Header";
@@ -23,15 +23,13 @@ import Offer from "./pages/offer/Offer";
 import Publish from "./pages/publish/Publish";
 import PaymentPage from "./pages/PaymentPage/PaymentPage";
 
+//config pour l'url de l'API local ou distante
 import config from "./config";
 
+// Import de la librairie Stripe
 import { loadStripe } from "@stripe/stripe-js";
-// import { Elements } from "@stripe/react-stripe-js";
-// import CheckoutForm from "./components/CheckoutForm";
 
-const stripePromise = loadStripe(
-  "pk_test_51IwqT2BynYg7O0QXLqDqQ15e5l36VsPactY4jOmrWXbpOIUFSmR7HRN8GKes9rAE5TDqIyUniEK5btqRVQR5pkYj00CLjT2ZLS"
-);
+const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLIC_KEY);
 
 function App() {
   const navigate = useNavigate();
