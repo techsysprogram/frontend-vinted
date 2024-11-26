@@ -1,0 +1,109 @@
+/* Styles généraux */
+.offer-main {
+    background-color: #f9f9f9;
+    padding: 20px;
+    font-family: "Maison Neue", sans-serif;
+  }
+  
+  .offer-container {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .offer-left {
+    flex: 1.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .offer-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .offer-right {
+    flex: 1;
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .offer-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .offer-details {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  
+  .offer-detail-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 5px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .detail-key {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .detail-value {
+    color: #777;
+  }
+  
+  .offer-description {
+    margin-bottom: 20px;
+  }
+  
+  .offer-description h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .offer-description p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .offer-owner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .owner-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .offer-buy-button {
+    background-color: #2cb1ba;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  

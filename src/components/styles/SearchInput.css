@@ -1,0 +1,27 @@
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  width: 630px;
+  padding-left: 40px;
+  background-color: #f5f6f7;
+  border-radius: 5px;
+  height: 37px;
+  border: none;
+  outline: none;
+  font-family: Maison Neue, sans-serif;
+  font-size: 16px;
+}
+
+.search-input::placeholder {
+  color: #cbcccd;
+  font-size: 16px;
+}
+
+.search-input-icon {
+  position: absolute;
+  left: 7px;
+  top: 12px;
+  color: #bbb;
+}

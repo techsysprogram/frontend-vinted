@@ -1,0 +1,35 @@
+
+/* #root {
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.2;
+  font-family: "Maison Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+/* Font Face */
+@font-face {
+  font-family: "Maison Neue";
+  src: url("/src/assets/fonts/Font-40207f9e.eot"); /* Embedded OpenType */
+  src: url("/src/assets/fonts/Font-40207f9e.eot?#iefix")
+      format("embedded-opentype"),
+    url("/src/assets/fonts/Font-dc5812fe.woff2") format("woff2"),
+    url("/src/assets/fonts/Font-a6ef6867.woff") format("woff"),
+    url("/src/assets/fonts/Font-25100ede.ttf") format("truetype"),
+    url("/src/assets/fonts/Font-28a444d5.svg#Font") format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

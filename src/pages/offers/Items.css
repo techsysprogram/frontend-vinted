@@ -1,0 +1,97 @@
+.items-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto auto;
+  width: 1280px;
+  gap: 12px;
+}
+
+.card-container {
+  width: 235px;
+  padding: 0 6px 16px;
+  cursor: pointer;
+}
+
+.card-container div:last-child img {
+  height: 360px;
+  width: 235px;
+  object-fit: cover;
+}
+
+.card-avatar-username {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.card-avatar-username > img {
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.card-avatar-username > span {
+  color: #999;
+}
+
+.card-price-size-brand {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.card-price-size-brand span:first-child {
+  font-size: 14px;
+}
+
+.card-price-size-brand span:not(:first-child) {
+  font-size: 12px;
+  color: #999;
+}
+
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+  font-family: "Maison Neue", sans-serif;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  background-color: #00a9a5; /* Teinte douce, proche de celle du logo */
+  color: #fff;
+  border: none;
+  border-radius: 25px; /* Boutons arrondis */
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pagination button:hover {
+  background-color: #008b89; /* Couleur légèrement plus foncée au survol */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.pagination button:disabled {
+  background-color: #ccc; /* Couleur douce pour les boutons désactivés */
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.pagination span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333; /* Texte neutre */
+  padding: 5px 15px;
+  background-color: #f9f9f9; /* Fond clair pour contraste */
+  border-radius: 15px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}

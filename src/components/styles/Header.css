@@ -1,0 +1,30 @@
+.header-logo {
+  height: 30px;
+  cursor: pointer;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1280px;
+  margin: auto;
+  padding: 10px 0;
+
+  color: #000000; /* Noir pur */
+  background-color: #FFFFFF; /* Blanc pur */
+}
+
+.search-filtres {
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+  height: 38px;
+  gap: 20px;
+}
+
+.header-links {
+  display: flex;
+  gap: 20px;
+}
+

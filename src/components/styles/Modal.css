@@ -1,0 +1,125 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-container {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: "Maison Neue", sans-serif;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #cb0c5a;
+  }
+  
+  .modal-content h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .modal-content input[type="text"],
+  .modal-content input[type="email"],
+  .modal-content input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: none;
+    border-bottom: 1px solid #fbe7e7;
+    font-size: 1rem;
+    background: transparent;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .modal-content input[type="text"]:focus,
+  .modal-content input[type="email"]:focus,
+  .modal-content input[type="password"]:focus {
+    border-bottom: 1px solid #2fb0b9;
+  }
+
+  
+  .newsletter {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #555;
+    font-size: 0.9rem;
+  }
+
+  .newsletter input[type="checkbox"] {
+    transform: scale(2);
+    margin-right: 16px;
+  }
+  
+  .modal-content .modal-description {
+    font-size: 12px;
+    color: #c1c1c1;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .modal-submit {
+    background: #2fb0b9;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .modal-submit:hover {
+    background: #2fb0b9;
+  }
+  
+  .modal-switch {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #2fb0b9;
+    cursor: pointer;
+  }
+  
+  .modal-switch a {
+    color: #2fb0b9;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .modal-switch a:hover {
+    text-decoration: underline;
+  }
+
+  /* Styles pour les placeholders */
+.modal-content input::placeholder {
+    opacity: 0.5; /* Optionnel : ajuster la transparence */
+  }
+  

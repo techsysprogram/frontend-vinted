@@ -1,0 +1,30 @@
+.header-button {
+  height: 30px;
+  width: 115px;
+  border-radius: 5px;
+  font-size: 12px;
+  border: 1px solid #2cb1ba;
+  outline: none;
+  cursor: pointer;
+  font-family: "Maison Neue", sans-serif;
+}
+
+.button-login-signup {
+  background-color: #fff;
+  color: #2cb1ba;
+}
+
+.button-login-signup:hover {
+  background-color: #f0f9fa;
+}
+
+.button-solid {
+  background-color: #2cb1ba;
+  color: #fff;
+}
+
+.button-desconenct {
+  border: 1px solid #cb0c5a;
+  background-color: #cb0c5a;
+  color: #fff;
+}

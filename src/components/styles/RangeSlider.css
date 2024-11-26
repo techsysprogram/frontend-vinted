@@ -1,0 +1,64 @@
+/* Conteneur principal */
+.slider-container {
+    display: flex;
+    flex-direction:row;
+    /* width: 316px; */
+
+  }
+  
+  /* Conteneur pour afficher les valeurs min et max */
+  .slider-values {
+    margin-right: 10px;
+  }
+  
+  .slider-label {
+    font-size: 14px;
+    color: #cec9c9;
+  }
+  
+  /* Style de la piste */
+  .slider-track {
+    height: 6px;
+    /* width: 100%; */
+    background-color: #ccc;
+    margin: 0 auto;
+    width: 316px;
+    position: relative;
+    border-radius: 5px;
+    top: 2px;
+  }
+  
+  /* Style des points de contrôle (thumbs) */
+  .slider-thumb {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: #2eafbc;
+    cursor: pointer;
+    /* border-color: #f9fafb ; */
+    border: 1px solid #f9fafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); */
+    position: relative;
+  }
+  
+  .slider-value {
+    position: absolute;
+    width: 35px;
+    height: 22.5px;
+    top: -26px;
+    color: #f9fafb;
+    background-color: #2eafbc;
+    border-radius: 5px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+
+    /* text-align: center; */
+    /* font-weight: bold; */
+  }
+  

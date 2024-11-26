@@ -1,0 +1,52 @@
+.home-hero-bg-img {
+  background-image: url(/src/assets/img/hero-24963eb2.jpg); /* Remplacez par le bon chemin si nécessaire */
+  height: 455px;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.home-hero-bg-img > div {
+  width: 1280px;
+  margin: auto;
+}
+
+.home-hero-ready {
+  height: 270px;
+  width: 410px;
+
+  font-weight: 200;
+
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 3px;
+  font-size: 34px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 75px;
+  box-shadow: 0 0 2px #1111113d;
+}
+
+.home-hero-ready button {
+  height: 45px;
+  width: 187px;
+  background-color: #2baeb7;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  padding: 0 14px;
+  margin-top: 32px;
+  cursor: pointer ;
+}
+
+.home-hero-forme {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 80px;
+  pointer-events: none;
+}
